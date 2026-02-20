@@ -6,6 +6,7 @@ void setup() {
     Serial1.begin(9600);
 }
 
+
 void loop() {
     // write your code here
     if (Serial1.available()) {
